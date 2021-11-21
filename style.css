@@ -1,0 +1,74 @@
+.calculator {
+    border: 2px solid black;
+    width: 292px;
+    height: 380px;
+    padding: 10px;
+    background-color: rgb(87, 85, 85);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.panel {
+    padding: 10px 0 0 0;
+}
+
+.screen button {
+    float: left;
+    background-color: rgb(177, 44, 44);
+    font-weight: bold;
+    color: white;
+}
+
+.screenNumbers {
+    float: right;
+    border: 1px solid black;
+}
+
+.operator {
+    height: 20px;
+    width: 25px;
+    float: left;
+    text-align: center;
+}
+
+.oldNumber {
+    height: 20px;
+    width: 192px;
+    float: right;
+    text-align: right;
+}
+
+.lastNumber {
+    width: 217px;
+    height: 68px;
+    font-size: 32px;
+    text-align: right;
+}
+
+.equals {
+    background-color: rgb(169, 80, 21);
+    color: white;
+    font-weight: bold;
+}
+
+.ops {
+    background-color: rgb(169, 80, 21);
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(167, 155, 155);
+    font-weight: bold;
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.panel button {
+    margin-top: 4px;
+}
+
+.panel {
+    float: left;
+}
